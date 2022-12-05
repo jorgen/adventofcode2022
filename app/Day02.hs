@@ -5,7 +5,6 @@ import qualified Data.ByteString.Char8 as C
 import qualified Data.ByteString as BS
 import System.IO
 import Data.List.Split
-import Text.ParserCombinators.ReadP (readP_to_S)
 
 data RPS = Rock | Scissors | Paper deriving(Show, Eq)
 
