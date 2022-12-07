@@ -15,9 +15,10 @@ makeSplitMaybeTuples [x,y] = Just (x,y)
 makeSplitMaybeTuples _ = Nothing
 
 makeSplits :: [BS.ByteString] -> [(BS.ByteString, BS.ByteString)]
-makeSplits x = catMaybes $ map makeSplitMaybeTuples listSplit
-    where 
-        listSplit = map C.split ',' x
+makeSplits _ = []
+--makeSplits x = catMaybes $ map makeSplitMaybeTuples listSplit
+--    where 
+--        listSplit = map C.split ',' x
 
 
 runDay04 = do
