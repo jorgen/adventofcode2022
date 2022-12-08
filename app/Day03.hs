@@ -8,6 +8,7 @@ import qualified Data.Char as CH
 import qualified Data.Word as BS
 import GHC.IO.Encoding.Latin1 (ascii_decode)
 
+
 inputFile :: BS.ByteString
 inputFile = $(embedFile "app/input03.txt")
 
