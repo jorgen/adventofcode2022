@@ -5,8 +5,6 @@ import qualified Data.ByteString as BS
 import qualified Data.ByteString.Char8 as C 
 import Data.List (nub)
 import qualified Data.Char as CH
-import qualified Data.Word as BS
-import GHC.IO.Encoding.Latin1 (ascii_decode)
 
 
 inputFile :: BS.ByteString

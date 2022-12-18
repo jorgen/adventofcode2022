@@ -2,7 +2,7 @@ module Day01 (runDay01) where
 
 import System.IO
 import Data.List.Split
-import Data.List(sort, sortBy)
+import Data.List(sortBy)
 
 readInt :: [Char] -> Integer
 readInt a = read a ::Integer

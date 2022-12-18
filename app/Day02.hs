@@ -3,8 +3,6 @@ module Day02 (runDay02) where
 import Data.FileEmbed
 import qualified Data.ByteString.Char8 as C 
 import qualified Data.ByteString as BS
-import System.IO
-import Data.List.Split
 
 data RPS = Rock | Scissors | Paper deriving(Show, Eq)
 
